@@ -22,3 +22,15 @@ function calcular(){
 
     
 }
+
+function limpiar(){
+    let N1 = document.getElementById("N1") ;
+    let N2 = document.getElementById("N2") ;
+    let N3 = document.getElementById("N3") ;
+    let respuesta = document.getElementById("Resp");
+
+    respuesta.textContent = "Promedio: " + 0;
+    N1.value = 0 ;
+    N2.value = 0 ;
+    N3.value = 0 ;
+}
